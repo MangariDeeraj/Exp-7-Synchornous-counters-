@@ -20,6 +20,7 @@ Binary count sequence, paying attention to patterns preceding the “toggling”
 Note that each bit in this four-bit sequence toggles when the bit before it (the bit having a lesser significance, or place-weight), toggles in a particular direction: from 1 to 0.
 
 
+![Screenshot 2023-11-23 220103](https://github.com/MangariDeeraj/Exp-7-Synchornous-counters-/assets/149365485/11fe082e-41c7-4769-bded-e67377e68af1)
 
  
  
@@ -28,7 +29,6 @@ Starting with four J-K flip-flops connected in such a way to always be in the �
 
 The Q outputs of each flip-flop will serve as the respective binary bits of the final, four-bit count:
 
- 
  
 
 Four-bit “Up” Counter
