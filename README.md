@@ -20,9 +20,8 @@ Binary count sequence, paying attention to patterns preceding the “toggling”
 Note that each bit in this four-bit sequence toggles when the bit before it (the bit having a lesser significance, or place-weight), toggles in a particular direction: from 1 to 0.
 
 
-![Screenshot 2023-11-23 220103](https://github.com/MangariDeeraj/Exp-7-Synchornous-counters-/assets/149365485/11fe082e-41c7-4769-bded-e67377e68af1)
+![Screenshot 2023-11-28 103057](https://github.com/MangariDeeraj/Exp-7-Synchornous-counters-/assets/149365485/d050a2bf-5d27-4dae-a564-3fa3623d4a2a)
 
- 
  
 
 Starting with four J-K flip-flops connected in such a way to always be in the “toggle” mode, we need to determine how to connect the clock inputs in such a way so that each succeeding bit toggles when the bit before it transitions from 1 to 0.
@@ -32,8 +31,8 @@ The Q outputs of each flip-flop will serve as the respective binary bits of the 
  
 
 Four-bit “Up” Counter
-![image](https://user-images.githubusercontent.com/36288975/169644758-b2f4339d-9532-40c5-af40-8f4f8c942e2c.png)
 
+![Screenshot 2023-11-28 103110](https://github.com/MangariDeeraj/Exp-7-Synchornous-counters-/assets/149365485/40f25e3d-a8bd-420a-8f0a-8608316bf2e5)
 
 
 ## DOWN COUNTER 
@@ -41,8 +40,9 @@ Four-bit “Up” Counter
 As well as counting “up” from zero and increasing or incrementing to some preset value, it is sometimes necessary to count “down” from a predetermined value to zero allowing us to produce an output that activates when the zero count or some other pre-set value is reached.
 
 This type of counter is normally referred to as a Down Counter, (CTD). In a binary or BCD down counter, the count decreases by one for each external clock pulse from some preset value. Special dual purpose IC’s such as the TTL 74LS193 or CMOS CD4510 are 4-bit binary Up or Down counters which have an additional input pin to select either the up or down count mode.
-![image](https://user-images.githubusercontent.com/36288975/169644844-1a14e123-7228-4ed8-81a9-eb937dff4ac8.png)
+![Screenshot 2023-11-23 220103](https://github.com/MangariDeeraj/Exp-7-Synchornous-counters-/assets/149365485/11fe082e-41c7-4769-bded-e67377e68af1)
 
+ 
 
 4-bit Count Down Counter
 ### Procedure
@@ -51,7 +51,8 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 
 ### PROGRAM 
-/*
+/*![Screenshot 2023-11-23 220103](https://github.com/MangariDeeraj/Exp-7-Synchornous-counters-/assets/149365485/a750aab9-7e21-4188-8e63-1e98648aaf63)
+
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 Developed by: 
 RegisterNumber:  
@@ -73,13 +74,17 @@ RegisterNumber:
 
 
 ### TIMING DIGRAMS FOR COUNTER  
+![Screenshot 2023-11-28 103226](https://github.com/MangariDeeraj/Exp-7-Synchornous-counters-/assets/149365485/44eb9c6e-df0f-4978-ac59-afb65c3a5fd5)
 
 
+![Screenshot 2023-11-23 220314](https://github.com/MangariDeeraj/Exp-7-Synchornous-counters-/assets/149365485/edd9e134-9238-4a7a-b965-a6dbae879b7f)
 
 
 
 ### TRUTH TABLE 
 
+![WhatsApp Image 2023-11-28 at 10 34 53_23560264](https://github.com/MangariDeeraj/Exp-7-Synchornous-counters-/assets/149365485/853b22d2-109d-40bc-ad3f-148f5205e1eb)
+![WhatsApp Image 2023-11-28 at 10 34 53_3f686c61](https://github.com/MangariDeeraj/Exp-7-Synchornous-counters-/assets/149365485/2fc85bbe-40b2-4a23-9621-62d443e78e32)
 
 
 
